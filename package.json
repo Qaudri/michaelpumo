@@ -1,0 +1,30 @@
+{
+  "name": "michaelpumo",
+  "version": "1.0.0",
+  "description": "A Simple recreation of Michael Pumo's portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "qg-test",
+    "build-tailwind": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/app.css  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qaudri/michealpumo.git"
+  },
+  "keywords": [
+    "quiz",
+    "game",
+    "javascript"
+  ],
+  "author": "micakinacademy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qaudri/michealpumo/issues"
+  },
+  "homepage": "https://github.com/qaudri/michealpumo#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
