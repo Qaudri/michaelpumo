@@ -6,10 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/app.css">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body{
+            font-family: poppins;
+        }
+
+        .bg{
+            background: url('./assets/images/background-img.jpg');
+            width: 100%;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .stick{
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        a:hover{
+            transition: .3s ease-in-out;
+        }
+    </style>
 </head>
 <body>
-    <section class="w-full h-screen bg-black">
- 
+    <section class="w-full h-screen flex">
+        <div class="relative w-1/2">
+            <div class="fixed w-1/2 bg-mycolor-100 h-screen flex items-center">
+                <div class="p-14 ">
+                    <div class="mb-16">
+                        <img src="./assets/images/logo-white.svg" alt="" width="100px">
+                    </div>
+                    <div>
+                        <h1
+                            class="text-white text-4xl size font-medium max-w-3xl leading-normal mb-6">
+                            Hello. I'm a freelance user interface developer.
+                        </h1>
+    
+                        <p
+                            class="text-white text-sm leading-5 font-normal max-w-md mb-8">
+                            My name is Muhammad A.Quadir. I craft user interfaces using modern 
+                            frontend web technologies.
+                        </p>
+    
+                        <div class="my-20">
+                            <a href="#"
+                                class="text-white font-medium p-4 rounded-full border-2 border-white hover:text-mycolor-100 hover:bg-white">
+                                Let's work together!
+                            </a>
+                        </div>
+
+                        <div>
+                            <p class="text-white text-sm font-light opacity-100"> Find me at <a class="text-white font-medium underline hover:no-underline opacity-100">Twitter</a>, <a class="text-white font-medium underline hover:no-underline opacity-100">Github</a> and <a class="text-white font-medium underline hover:no-underline opacity-100">LinkedIn</a></p>
+                            <p class="text-white text-sm font-light opacity-100">Download my <a class="text-white font-medium underline hover:no-underline opacity-100">resume</a></p>
+                        </div>
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-1/2 h-screen">
+            <div class="bg h-screen w-full">
+
+            </div>
+
+            <div class="bg-gray-50 h-screen p-14">
+                <div>
+                    <h1 class="font-medium text-4xl text-mycolor-100">About me</h1>
+                    <h2 class="font-medium text-xl color my-6 text-mycolor-100">
+                        I enjoy working closely with design teams to faithfully translate their 
+                        designs right down to the last pixel. Daily, you'll find me using modern 
+                        frontend technologies that bring the creative process to life just as designers 
+                        intended them to be.
+                    </h2>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
