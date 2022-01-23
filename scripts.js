@@ -23,3 +23,10 @@ function fadeAwayThree() {
     displayTwo.style.display = "none";
     displayThree.style.display = "none";
 }
+
+let sectionBG =  document.querySelector('.trying')
+let timer = setTimeout(onTick, 50);
+
+function onTick(params) {
+    sectionBG.classList.add('move')
+}

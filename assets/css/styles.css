@@ -27,6 +27,42 @@ a:hover{
     cursor: pointer;
 }
 
+.slide{
+    animation: slideLeft 1s forwards;
+    width: 50vw;
+}
+
+@keyframes slideLeft {
+    from{
+        width: 100vw;
+    }
+
+    to{
+        width: 50vw;
+    }
+}
+
+.gentle{
+    animation: gentleSlide 1s forwards;
+}
+
+@keyframes gentleSlide{
+    0%{
+        opacity: 0;
+        transform: translateX(-.5em);
+    }
+
+    95%{
+        opacity: 0;
+        transform: translateX(-.5em);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .review-items{
     animation: fadeIn 1s forwards;
 }
