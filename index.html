@@ -4,35 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Freelance frontend user interface developer</title>
     <link rel="stylesheet" href="./assets/css/app.css">
-    <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-        body{
-            font-family: poppins;
-        }
-
-        .bg{
-            background: url('./assets/images/background-img.jpg');
-            width: 100%;
-            background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-
-        .stick{
-            position: sticky;
-            top: 0;
-            z-index: 1;
-        }
-
-        a:hover{
-            transition: .3s ease-in-out;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <section class="w-full h-screen flex">
@@ -76,7 +50,7 @@
 
             </div>
 
-            <div class="bg-gray-50 h-screen p-14">
+            <div class="bg-gray-50 p-14 stop">
                 <div>
                     <h1 class="font-medium text-4xl text-mycolor-100">About me</h1>
                     <h2 class="font-medium text-xl color my-6 text-mycolor-100">
@@ -86,8 +60,307 @@
                         intended them to be.
                     </h2>
                 </div>
+                <div class="my-10">
+                    <h3 class="font-semibold text-lg color my-2 text-mycolor-100">
+                        Technical
+                    </h3>
+
+                    <p
+                        class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                        Right now you can find me hacking away primarily with Vue.js, 
+                        Nuxt.js, Gridsome, Prismic CMS, GraphQL and in general anything 
+                        JavaScript, HTML and CSS related. Also been known to dabble in 
+                        React.js and Gatsby from time to time or wrestling with Webpack.
+                    </p>
+
+                    <h3 class="font-semibold text-lg color my-2 text-mycolor-100">
+                        Personal
+                    </h3>
+
+                    <p
+                        class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                        I grew up in Nottingham and moved to London many years ago. Being half 
+                        Italian and half British, I try to visit family in Sicily whenever I can 
+                        to practice (struggling) with the basics of the language.
+                    </p>
+
+                    <div class="my-4"></div>
+
+                    <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                        Allora, lavoriamo insieme!
+                    </p>
+                </div>
             </div>
+
+            <div class="grid grid-cols-2 gap-1 w-full stop left-0">
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <h1 class="font-serif text-4xl text-mycolor-100 font-semibold italic">SomeOne.</h1>
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">SomeOne.</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Greenfield project using Nuxt.js with Prismic hosted on Zeit Now</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <h1 class="font-serif text-4xl text-mycolor-100 font-semibold italic">Ragged Edge</h1>
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">Ragged Edge</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Custom WordPress builds for big name retail and catering brands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <h1 class="font-mono text-4xl text-mycolor-100 font-semibold italic">the hoxton</h1>
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">The Hoxton</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Production of the Working From_ website with Nuxt.js and WordPress.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <h1 class="font-serif text-4xl text-mycolor-100 font-semibold">All OfUs</h1>
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">All OfUs</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Design system and component library for G. F. Smith built with Vue.js and Storybook.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <h1 class="font-sans text-4xl text-mycolor-100 font-semibold">Foolproof</h1>
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">Foolproof</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">                      
+                                Agency website using our own custom component library built with VDS.                                   
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <h1 class="font-mono text-4xl text-mycolor-100 font-semibold">parallel</h1>
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">parallel</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Various web application builds and maintenance for a range of clients.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <img src="./assets/images/logo-color.svg" alt="" width="100px">
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">Added</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Complete website build using various technologies mostly Nuxt.js.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-40 bg-gray-200 flex items-center justify-center group hover:bg-white">
+                    <div class="p-6">
+                        <div class="group-hover:hidden">
+                            <img src="./assets/images/quizelo.svg" alt="" width="100px">
+                        </div>
+                        
+                        <div class="hidden group-hover:block work-items">
+                            <h3 class="font-semibold text-lg color my-2 text-mycolor-100">Quizelo</h3>
+                            <p class="font-medium bg-opacity-10 text-sm color my-4 text-mycolor-100">
+                                Web development build for a quiz application with simple vanilla JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="p-14 stick h-screen flex items-center bg-secondcolor-100">
+
+                <div class="block review-items" id="reviewOne">
+                    <h1 class="font-semibold leading-normal my-8 text-3xl text-mycolor-100">
+                        We've worked with Michael a lot of times and he's repeatedly surpassed our
+                        expectations. He continues to be one of our most valued digital resources and
+                        we look forward to working together more in the future.
+                    </h1>
+
+                    <h3 class="text-mycolor-100 font-semibold my-2">Matt Bland</h3>
+                    <p class="text-mycolor-100 font-medium my-2">Managing Director at RaggedEdge</p>
+
+                    <div class="flex mt-14">
+                        <div class="h-3 w-3 rounded-full bg-white mr-3"></div>
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-50 mx-3"></div>
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-50 mx-3"></div>
+                    </div>
+                </div>
+
+                <div class="hidden review-items" id="reviewTwo">
+                    <h1 class="font-semibold leading-normal my-8 text-3xl text-mycolor-100">
+                        Michael is incredibly thorough and professional in bringing our website to life.
+                        As designers, we can be quite picky about how things work but he took the challenge
+                        and developed every single aspect beautifully
+                    </h1>
+
+                    <h3 class="text-mycolor-100 font-semibold my-2">Renata Garcia</h3>
+                    <p class="text-mycolor-100 font-medium my-2">Producer at Moth</p>
+
+                    <div class="flex mt-14">
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-50 mr-3"></div>
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-100 mx-3"></div>
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-50 mx-3"></div>
+                    </div>
+                </div>
+
+                <div class="hidden review-items" id="reviewThree">
+                    <h1 class="font-semibold leading-normal my-8 text-3xl text-mycolor-100">
+                        Working with Michael has always been a smooth process from initial concepts to
+                        problem solving, right through the stages of development. He's our perfect digital
+                        partner. Definitely will keep working with him.
+                    </h1>
+
+                    <h3 class="text-mycolor-100 font-semibold my-2">Matt Bland</h3>
+                    <p class="text-mycolor-100 font-medium my-2">Managing Director at RaggedEdge</p>
+
+                    <div class="flex mt-14">
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-50 mr-3"></div>
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-50 mx-3"></div>
+                        <div class="h-3 w-3 rounded-full bg-white bg-opacity-100 mx-3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stop h-screen flex items-center w-full">
+                <div>
+                    <div class="px-14 py-8">
+                        <h1 class="text-mycolor-100 text-3xl text-semibold">Portfolio</h1>
+                        <p>Swipe or drag below to see a small selection of projects I've worked on.
+                        </p>
+                    </div>
+                    <div class="flex overflow-hidden scrollbar">
+                        <a class="portfolio h-screen-70 overflow-hidden w-96 mx-2 flex items-end rounded-2xl">
+                            <div class="p-6">
+                                <h1  class="text-white text-3xl text-semibold">Portfolio</h1>
+                                <p class="text-white"> A brief description of the work</p>
+                            </div>
+                        </a>
+
+                        <a class="portfolio h-screen-70 overflow-hidden w-96 mx-2 flex items-end rounded-2xl">
+                            <div class="p-6">
+                                <h1  class="text-white text-3xl text-semibold">Portfolio</h1>
+                                <p class="text-white"> A brief description of the work</p>
+                            </div>
+                        </a>
+
+                        <a class="portfolio h-screen-70 overflow-hidden w-96 mx-2 flex items-end rounded-2xl">
+                            <div class="p-6">
+                                <h1  class="text-white text-3xl text-semibold">Portfolio</h1>
+                                <p class="text-white"> A brief description of the work</p>
+                            </div>
+                        </a>
+
+                        <a class="portfolio h-screen-70 overflow-hidden w-96 mx-2 flex items-end rounded-2xl">
+                            <div class="p-6">
+                                <h1  class="text-white text-3xl text-semibold">Portfolio</h1>
+                                <p class="text-white"> A brief description of the work</p>
+                            </div>
+                        </a>
+
+                        <a class="portfolio h-screen-70 overflow-hidden w-96 mx-2 flex items-end rounded-2xl">
+                            <div class="p-6">
+                                <h1  class="text-white text-3xl text-semibold">Portfolio</h1>
+                                <p class="text-white"> A brief description of the work</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-screen bg-gray-100 p-14">
+                <h1 class="text-my-color-100 text-4xl font-semibold my-8">Contact me</h1>
+                <h2 class="text-my-color-100 text-2xl font-semibold my-2">Don't be shy!</h2>
+                <p class="text-my-color-100 text-md opacity-75 max-w-lg font-semibold my-2">If you have a project in mind or would like to make an enquiry simply select 
+                    one of the following options.
+                </p>
+
+                <div>
+                    <div  class="my-8">
+                        <a href="">
+                            <div class="flex items-center">
+                                <div class="bg-secondcolor-100 p-2 rounded-full mr-4">
+                                    <img src="./assets/images/icon-working.png" alt="" width="50px">
+                                </div>
+                                <p class="text-my-color-100 opacity-80 text-md max-w-lg font-semibold">I'd like to book you in</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div  class="my-8">
+                        <a href="">
+                            <div class="flex items-center">
+                                <div class="bg-green-300 p-2 rounded-full mr-4">
+                                    <img src="./assets/images/icon-working.png" alt="" width="50px">
+                                </div>
+                                <p class="text-my-color-100 opacity-80 text-md max-w-lg font-semibold">I'd like a quote for a project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div  class="my-8">
+                        <a href="">
+                            <div class="flex items-center">
+                                <div class="bg-yellow-300 p-2 rounded-full mr-4">
+                                    <img src="./assets/images/icon-working.png" alt="" width="50px">
+                                </div>
+                                <p class="text-my-color-100 opacity-80 text-md max-w-lg font-semibold">I'd just like to say hello</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </section>
 </body>
+<script src="./scripts.js">
+</script>
 </html>

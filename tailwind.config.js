@@ -52,6 +52,10 @@ module.exports = {
 
         mycolor: {
           '100': '#272042',
+        },
+
+        secondcolor: {
+          '100': '#FFA3B5',
         }
         
       },
@@ -75,13 +79,12 @@ module.exports = {
         'auto': 'auto',
       },
 
-      display: [
-        "group-hover",
-      ]
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      display: ['group-hover'],
+    },
   },
   plugins: [],
 }

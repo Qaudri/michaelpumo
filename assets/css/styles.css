@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+.bg{
+    background: url('../images/background-img.jpg');
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sticky-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+a:hover{
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.review-items{
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateX(4em);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.work-items{
+    animation: fadeInTop 1s forwards;
+}
+
+@keyframes fadeInTop {
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+:hover{
+    transition: .5s ease-in-out;
+}
+
+.portfolio{
+    background: linear-gradient(transparent, transparent, black), url(../images/background-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 400px;
+}
+
+.scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
