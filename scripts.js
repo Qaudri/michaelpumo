@@ -24,9 +24,17 @@ function fadeAwayThree() {
     displayThree.style.display = "none";
 }
 
-let sectionBG =  document.querySelector('.trying')
-let timer = setTimeout(onTick, 50);
+const bookMeBtn = document.getElementById("bookMe");
+const bookMeDetails = document.getElementById("bookingDetails");
+const closeBtn = document.getElementById("closeButton");
 
-function onTick(params) {
-    sectionBG.classList.add('move')
+bookMeBtn.addEventListener("click", revealBooking);
+closeBtn.addEventListener("click", closeBooking);
+
+function revealBooking() {
+    bookMeDetails.style.display = "flex";
+}
+
+function closeBooking() {
+    bookMeDetails.style.display = "none";
 }

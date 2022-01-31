@@ -1,7 +1,7 @@
 {
-  "name": "michaelpumo",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "A Simple recreation of Michael Pumo's portfolio website",
+  "description": "A Simple personal portfolio website portfolio website",
   "main": "index.js",
   "scripts": {
     "test": "qg-test",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qaudri/michealpumo.git"
+    "url": "git+https://github.com/qaudri/my-portfolio.git"
   },
   "keywords": [
-    "quiz",
-    "game",
-    "javascript"
+    "portfolio",
+    "portfolio",
+    "portfolio"
   ],
-  "author": "micakinacademy",
+  "author": "qaudri",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qaudri/michealpumo/issues"
+    "url": "https://github.com/qaudri/my-portfolio/issues"
   },
-  "homepage": "https://github.com/qaudri/michealpumo#readme",
+  "homepage": "https://github.com/qaudri/my-portfolio#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",

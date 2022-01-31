@@ -14,33 +14,38 @@ body{
     background-attachment: fixed;
 }
 
-.sticky-container{
-    position: sticky;
+/* .sticky-container{
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
-    z-index: 1;
-    min-height: 100vh;
-}
+    z-index: 2;
+
+} */
 
 a:hover{
     transition: .3s ease-in-out;
     cursor: pointer;
 }
 
-.slide{
-    animation: slideLeft 1s forwards;
-    width: 50vw;
-}
-
-@keyframes slideLeft {
-    from{
-        width: 100vw;
-    }
-
-    to{
+@media screen and (min-width: 1080px){
+    .slide{
+        animation: slideLeft 1s forwards;
         width: 50vw;
     }
+
+    @keyframes slideLeft {
+        from{
+            width: 100vw;
+        }
+    
+        to{
+            width: 50vw;
+        }
+    }
+
 }
+
+
 
 .gentle{
     animation: gentleSlide 1s forwards;
@@ -94,7 +99,6 @@ a:hover{
         transform: translateY(0);
     }
 }
-
 :hover{
     transition: .5s ease-in-out;
 }
@@ -114,5 +118,13 @@ a:hover{
 .scrollbar{
     -ms-overflow-style: none; 
     scrollbar-width: none;
+}
+
+input checkbox{
+    width: 30px;
+    appearance: none;
+    border:2px dotted #00f;
+    display:block;
+    background:#ff0000;
 }
 
