@@ -14,13 +14,12 @@ body{
     background-attachment: fixed;
 }
 
-/* .sticky-container{
+.sticky-container{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 2;
-
-} */
+    z-index: 1;
+}
 
 a:hover{
     transition: .3s ease-in-out;
@@ -68,9 +67,9 @@ a:hover{
     }
 }
 
-.review-items{
+/* .review-items{
     animation: fadeIn 1s forwards;
-}
+} */
 
 @keyframes fadeIn {
     from{
@@ -99,26 +98,15 @@ a:hover{
         transform: translateY(0);
     }
 }
+
+.multiple-items a{
+    transition: linear .4s;
+}
+
 :hover{
     transition: .5s ease-in-out;
 }
 
-.portfolio{
-    background: linear-gradient(transparent, transparent, black), url(../images/background-img.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-width: 400px;
-}
-
-.scrollbar::-webkit-scrollbar {
-    display: none;
-}
-
-.scrollbar{
-    -ms-overflow-style: none; 
-    scrollbar-width: none;
-}
 
 input checkbox{
     width: 30px;
